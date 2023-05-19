@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".TeamDevelopmetUPB2">
+
+    <TextView
+        android:layout_marginTop="9dp"
+        android:layout_marginStart="26dp"
+        android:textColor="@android:color/black"
+        android:text="Back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_development"
+        android:drawableStart="@drawable/nav_back"
+        android:drawablePadding="9dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="26dp"
+        android:id="@+id/tv_development"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@android:color/black"
+        android:text="TEAM DEVELOPMENT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="9dp"
+        android:id="@+id/tv_development2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_development"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Kalender AKademik"/>
+
+    <TextView
+        android:id="@+id/tv_development3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_development2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Universitas Pelita Bangsa"/>
+
+    <LinearLayout
+        app:layout_constraintTop_toBottomOf="@id/tv_development3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:paddingTop="30dp"
+            android:paddingStart="60dp"
+            android:paddingEnd="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_development3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_contact1"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/person_1" />
+
+                <TextView
+                    android:id="@+id/ket_contact1"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact1"
+                    android:textColor="@android:color/black"
+                    android:text="Imron Hendriansah"
+                    android:layout_below="@id/iv_contact1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/ket_contact2"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact1"
+                    android:textColor="#6941C6"
+                    android:text="UI Design"
+                    android:layout_below="@id/ket_contact1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="9dp"
+                    android:id="@+id/ket_contact3"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact1"
+                    android:textColor="@android:color/black"
+                    android:text="Mahasiswa Teknik Informatika 2021"
+                    android:layout_below="@id/ket_contact2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/ket_contact4"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact1"
+                    android:textColor="@android:color/black"
+                    android:text="Universitas Pelita Bangsa"
+                    android:layout_below="@id/ket_contact3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginStart="36dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_contact2"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/person_2" />
+
+                <TextView
+                    android:id="@+id/ket_contact_vol2_1"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact2"
+                    android:textColor="@android:color/black"
+                    android:text="Agung Tanujaya"
+                    android:layout_below="@id/iv_contact2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/ket_contact_vol2_2"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact2"
+                    android:textColor="#6941C6"
+                    android:text="Back End Developer"
+                    android:layout_below="@id/ket_contact_vol2_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="9dp"
+                    android:id="@+id/ket_contact_vol2_3"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact2"
+                    android:textColor="@android:color/black"
+                    android:text="Mahasiswa Teknik Informatika 2021"
+                    android:layout_below="@id/ket_contact_vol2_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/ket_contact_vol2_4"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact2"
+                    android:textColor="@android:color/black"
+                    android:text="Universitas Pelita Bangsa"
+                    android:layout_below="@id/ket_contact_vol2_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginStart="36dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_contact3"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/person_3" />
+
+                <TextView
+                    android:id="@+id/ket_contact_vol3_1"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact3"
+                    android:textColor="@android:color/black"
+                    android:text="Fahreza Bintang Mahesa"
+                    android:layout_below="@+id/iv_contact3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/ket_contact_vol3_2"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact3"
+                    android:textColor="#6941C6"
+                    android:text="Front End Developer"
+                    android:layout_below="@+id/ket_contact_vol3_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="9dp"
+                    android:id="@+id/ket_contact_vol3_3"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact3"
+                    android:textColor="@android:color/black"
+                    android:text="Mahasiswa Teknik Informatika 2021"
+                    android:layout_below="@+id/ket_contact_vol3_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/ket_contact_vol3_4"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact3"
+                    android:textColor="@android:color/black"
+                    android:text="Universitas Pelita Bangsa"
+                    android:layout_below="@+id/ket_contact_vol3_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="30dp"
+            android:paddingStart="60dp"
+            android:paddingEnd="60dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_development3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_contact4"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/person_4" />
+
+                <TextView
+                    android:id="@+id/ket_contact_vol4_1"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact4"
+                    android:textColor="@android:color/black"
+                    android:text="Abdul Arif Fahruroji"
+                    android:layout_below="@id/iv_contact4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/ket_contact_vol4_2"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact4"
+                    android:textColor="#6941C6"
+                    android:text="Content Management"
+                    android:layout_below="@id/ket_contact_vol4_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="9dp"
+                    android:id="@+id/ket_contact_vol4_3"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact4"
+                    android:textColor="@android:color/black"
+                    android:text="Mahasiswa Teknik Informatika 2021"
+                    android:layout_below="@id/ket_contact_vol4_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/ket_contact_vol4_4"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact4"
+                    android:textColor="@android:color/black"
+                    android:text="Universitas Pelita Bangsa"
+                    android:layout_below="@id/ket_contact_vol4_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginStart="36dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_contact5"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/person_5" />
+
+                <TextView
+                    android:id="@+id/ket_contact_vol5_1"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact5"
+                    android:textColor="@android:color/black"
+                    android:text="Rima Ananda Putri"
+                    android:layout_below="@id/iv_contact5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/ket_contact_vol5_2"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact5"
+                    android:textColor="#6941C6"
+                    android:text="UX Designer"
+                    android:layout_below="@+id/ket_contact_vol5_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="9dp"
+                    android:id="@+id/ket_contact_vol5_3"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact5"
+                    android:textColor="@android:color/black"
+                    android:text="Mahasiswa Teknik Informatika 2021"
+                    android:layout_below="@+id/ket_contact_vol5_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/ket_contact_vol5_4"
+                    android:gravity="center"
+                    android:layout_alignEnd="@id/iv_contact5"
+                    android:textColor="@android:color/black"
+                    android:text="Universitas Pelita Bangsa"
+                    android:layout_below="@+id/ket_contact_vol5_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginStart="36dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_contact6"
+                    android:layout_width="250dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/person_6" />
+
+                <TextView
+                    android:id="@+id/ket_contact_vol6_1"
+                    android:gravity="center"
+                    android:layout_alignEnd="@+id/iv_contact6"
+                    android:textColor="@android:color/black"
+                    android:text="Tri Hartono"
+                    android:layout_below="@+id/iv_contact6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/ket_contact_vol6_2"
+                    android:gravity="center"
+                    android:layout_alignEnd="@+id/iv_contact6"
+                    android:textColor="#6941C6"
+                    android:text="Quality Cheker"
+                    android:layout_below="@+id/ket_contact_vol6_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="9dp"
+                    android:id="@+id/ket_contact_vol6_3"
+                    android:gravity="center"
+                    android:layout_alignEnd="@+id/iv_contact6"
+                    android:textColor="@android:color/black"
+                    android:text="Mahasiswa Teknik Informatika 2021"
+                    android:layout_below="@+id/ket_contact_vol6_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/ket_contact_vol6_4"
+                    android:gravity="center"
+                    android:layout_alignEnd="@+id/iv_contact6"
+                    android:textColor="@android:color/black"
+                    android:text="Universitas Pelita Bangsa"
+                    android:layout_below="@+id/ket_contact_vol6_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

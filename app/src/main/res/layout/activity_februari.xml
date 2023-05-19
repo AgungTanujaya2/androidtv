@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FebruariActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:background="#DFDFDF"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="265dp">
+
+            <VideoView
+                android:id="@+id/videoKalender"
+                android:layout_marginEnd="45dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="end"
+                android:layout_width="440dp"
+                android:layout_height="match_parent"/>
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginStart="420dp"
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:paddingStart="26dp"
+                    android:paddingEnd="26dp"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/black"
+                    android:text="INFORMASI AKADEMIK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textSize="12sp"
+                    android:drawablePadding="6dp"
+                    android:layout_marginStart="445dp"
+                    android:drawableStart="@drawable/elipse"
+                    android:textColor="#ff3131"
+                    android:text=" Pembayaran Herregistrasi perkuliahan \n Semester Genap 13 sd 26 Feb. 2023"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textSize="12sp"
+                    android:drawablePadding="6dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="445dp"
+                    android:drawableStart="@drawable/elipse"
+                    android:textColor="#ff3131"
+                    android:text=" Pelaksanaan Perkuliahan Semester Genap \n 27 Februari sd 16 Juli 2023"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:drawablePadding="6dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="445dp"
+                    android:drawableStart="@drawable/elipse"
+                    android:textColor="#ff3131"
+                    android:text="-"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:paddingTop="16dp"
+                    android:paddingBottom="16dp"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/black"
+                    android:text="INFORMASI NASIONAL"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:textSize="12sp"
+                    android:drawablePadding="6dp"
+                    android:drawableStart="@drawable/elipse"
+                    android:textColor="#ff3131"
+                    android:text=" Isra' Mi'raj Nabi Muhammad SAW 18 Februari 2023"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:drawablePadding="6dp"
+                    android:drawableStart="@drawable/elipse"
+                    android:textColor="#ff3131"
+                    android:text="-"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginTop="12dp"
+                    android:drawablePadding="6dp"
+                    android:drawableStart="@drawable/elipse"
+                    android:textColor="#ff3131"
+                    android:text="-"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/kalender"
+        android:scaleType="fitXY"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/februari"
+        android:layout_width="400dp"
+        android:layout_height="420dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="-30dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/kalender"
+        app:layout_constraintStart_toEndOf="@id/kalender"
+        android:layout_marginStart="445dp"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Noted :"/>
+
+        <LinearLayout
+            android:layout_marginStart="6dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginTop="6dp"
+                android:textSize="8sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pelaksanaan Perkuliahan Semester Genap : 27 Februari sd 16 Juli 2023"/>
+
+            <TextView
+                android:textSize="8sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengisian Evaluasi Diri Prodi Semester Gasal : 1 sd 28 Februari 2023"/>
+
+            <TextView
+                android:textSize="8sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Evaluasi SPMI (Mones dan AMI) : Feb dan Juli s/d Agust. 2023"/>
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="8sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pengendalian standar SPMI : Feb dan Juli s/d Agust. 2023"/>
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="8sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seminar Kewirausahaan 1 (Tingkat Universitas) : Sept. 2022 sd Februari 2023"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@android:color/black"
+        android:text="Back"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="@id/kalender"
+        app:layout_constraintTop_toBottomOf="@id/kalender"
+        android:drawableStart="@drawable/nav_back"
+        android:drawablePadding="9dp"
+        android:id="@+id/btnBackFeb"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

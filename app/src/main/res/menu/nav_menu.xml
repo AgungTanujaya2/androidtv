@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="home"
+        android:icon="@drawable/nav_home"
+        />
+    <item
+        android:id="@+id/nav_kalender"
+        android:title="Kalender UPB"
+        android:icon="@drawable/nav_kalender"
+        />
+    <item
+        android:id="@+id/nav_upb"
+        android:title="Video Upb"
+        android:icon="@drawable/nav_upb"
+        />
+
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_team"
+                android:title="Team Management"
+                android:icon="@drawable/nav_team"/>
+        </menu>
+
+    </item>
+
+
+
+
+
+</menu>
