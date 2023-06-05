@@ -53,7 +53,17 @@
                 <TextView
                     android:drawablePadding="6dp"
                     android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
+                    android:drawableStart="@drawable/ellipsegreen"
+                    android:textColor="#64af44"
+                    android:text="Pelaporan PDDikti Forlap Tahap \n1 19 sd 30 September 2022"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:drawablePadding="6dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginStart="445dp"
+                    android:drawableStart="@drawable/ellipseblack"
                     android:textColor="#ff3131"
                     android:text="-"
                     android:layout_width="match_parent"
@@ -63,17 +73,7 @@
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
-                    android:text="-"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"/>
-
-                <TextView
-                    android:drawablePadding="6dp"
-                    android:layout_marginTop="12dp"
-                    android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
+                    android:drawableStart="@drawable/ellipseblack"
                     android:textColor="#ff3131"
                     android:text="-"
                     android:layout_width="match_parent"
@@ -82,7 +82,7 @@
 
             <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <TextView
@@ -95,8 +95,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:textSize="9sp"
-                    android:drawablePadding="6dp"
+                                        android:drawablePadding="6dp"
                     android:drawableStart="@drawable/elipse"
                     android:textColor="#ff3131"
                     android:text=" Maulid Nabi Muhammad SAW \n 28 September 2023"
@@ -106,7 +105,7 @@
                 <TextView
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
-                    android:drawableStart="@drawable/elipse"
+                    android:drawableStart="@drawable/ellipseblack"
                     android:textColor="#ff3131"
                     android:text="-"
                     android:layout_width="match_parent"
@@ -115,7 +114,7 @@
                 <TextView
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
-                    android:drawableStart="@drawable/elipse"
+                    android:drawableStart="@drawable/ellipseblack"
                     android:textColor="#ff3131"
                     android:text="-"
                     android:layout_width="match_parent"

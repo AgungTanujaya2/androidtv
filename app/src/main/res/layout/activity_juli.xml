@@ -51,45 +51,45 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:textSize="8sp"
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
-                    android:text=" Ujian Akhir Semester (UAS)\n3 s/d 9 Juli 2023"
+                    android:drawableStart="@drawable/ellipseblack"
+                    android:textColor="#000000"
+                    android:text="Ujian Akhir Semester (UAS) \n3 s/d 9 Juli 2023"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:textSize="8sp"
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
-                    android:text=" UAS Susulan \n10 s/d 16 Jul 2023"
+                    android:drawableStart="@drawable/ellipseorange"
+                    android:textColor="#ff914d"
+                    android:text="UAS Susulan 10 s/d 16 Jul 2023"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:textSize="8sp"
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
+                    android:drawableStart="@drawable/ellipseyellow"
+                    android:textColor="#ccaf09"
                     android:text="Batas akhir upload nilai semester \ngenap di ecampus 24 Juli 2023"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:textSize="8sp"
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
-                    android:text="Libur Perkuliahan Semester Genap \n17 Juli s/d 27 Agustus 2023"
+                    android:drawableStart="@drawable/ellipsepurple"
+                    android:textColor="#cb6ce6"
+                    android:text="Pengisian Kartu Rencana Studi Mahasiswa \n 26 Juni s/d 2 Juli 2023"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
@@ -110,29 +110,31 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
-                    android:textSize="8sp"
                     android:drawableStart="@drawable/elipse"
                     android:textColor="#ff3131"
-                    android:text="Tahun Baru Islam 1445 H \n19 Juli 2023"
+                    android:text="Tahun Baru Islam 1445 H 19 Juli 2023"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
                 <TextView
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
-                    android:text="-"
+                    android:drawableStart="@drawable/ellipsepink"
+                    android:textColor="#ff66c4"
+                    android:text="Pembayaran Herregistrasi Perkuliahan Semester \nAntara  26 Juni s/d 2 Juli 2023"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
                 <TextView
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
-                    android:text="-"
+                    android:drawableStart="@drawable/ellipseblack"
+                    android:textColor="#000000"
+                    android:text="Ujian Tengah Semester (UTS) 31 Juli s/d 6 \nAgustus 2023"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -205,6 +207,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Seminar Kewirausahaan II (Tingkat Program Studi) : Maret sd Agustus 2023"/>
+
+            <TextView
+                android:textStyle="italic"
+                android:textSize="8sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8.	Libur Perkuliahan Semester Genap : 17 Juli s/d 27 Agustus 2023"/>
 
         </LinearLayout>
 

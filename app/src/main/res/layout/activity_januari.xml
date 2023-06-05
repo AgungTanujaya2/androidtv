@@ -54,9 +54,20 @@
                    android:layout_height="wrap_content"/>
 
                <TextView
+                   android:textSize="12sp"
                    android:drawablePadding="6dp"
                    android:layout_marginStart="445dp"
-                   android:drawableStart="@drawable/elipse"
+                   android:drawableStart="@drawable/ellipseblue"
+                   android:textColor="#0cc0df"
+                   android:text="Pelaporan PDDikti Forlap Tahap II : \n23 s/d 27 Januari 2023"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"/>
+
+               <TextView
+                   android:drawablePadding="6dp"
+                   android:layout_marginTop="12dp"
+                   android:layout_marginStart="445dp"
+                   android:drawableStart="@drawable/ellipseblack"
                    android:textColor="#ff3131"
                    android:text="-"
                    android:layout_width="match_parent"
@@ -66,17 +77,7 @@
                    android:drawablePadding="6dp"
                    android:layout_marginTop="12dp"
                    android:layout_marginStart="445dp"
-                   android:drawableStart="@drawable/elipse"
-                   android:textColor="#ff3131"
-                   android:text="-"
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"/>
-
-               <TextView
-                   android:drawablePadding="6dp"
-                   android:layout_marginTop="12dp"
-                   android:layout_marginStart="445dp"
-                   android:drawableStart="@drawable/elipse"
+                   android:drawableStart="@drawable/ellipseblack"
                    android:textColor="#ff3131"
                    android:text="-"
                    android:layout_width="match_parent"
@@ -112,7 +113,7 @@
                    android:layout_marginTop="12dp"
                    android:drawableStart="@drawable/elipse"
                    android:textColor="#ff3131"
-                   android:text=" Tahun Baru Imlek 2574 Kongzil 22 Januari 2023"
+                   android:text="Tahun Baru Imlek 2574 Kongzil 22 Januari 2023"
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"/>
 
@@ -168,7 +169,7 @@
                 android:textSize="8sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Pelaksanaan Perkuliahan Semester Genap : 27 Februari sd 16 Juli 2023"/>
+                android:text="Pelaksanaan Perkuliahan Semester Genap : 27 Februari sd 16 Juli 2023 27 Februari sd 16 Juli 2023"/>
 
             <TextView
                 android:textStyle="italic"

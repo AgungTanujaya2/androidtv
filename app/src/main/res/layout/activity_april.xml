@@ -54,8 +54,8 @@
                     android:textSize="12sp"
                     android:drawablePadding="6dp"
                     android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
+                    android:drawableStart="@drawable/ellipseblue"
+                    android:textColor="#0cc0df"
                     android:text=" Ujian Tengah Semester (UTS) \n10 s/d 16 April 2023 "
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
@@ -64,8 +64,8 @@
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
+                    android:drawableStart="@drawable/ellipseblack"
+                    android:textColor="#000000"
                     android:text="-"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
@@ -74,8 +74,8 @@
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
+                    android:drawableStart="@drawable/ellipseblack"
+                    android:textColor="#000000"
                     android:text="-"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>

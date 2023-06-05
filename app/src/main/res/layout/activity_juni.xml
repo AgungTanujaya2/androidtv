@@ -51,32 +51,34 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:textSize="12sp"
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
+                    android:drawableStart="@drawable/ellipseblue"
+                    android:textColor="#0cc0df"
                     android:text=" Minggu Tenang Perkuliahan Semester \n Genap 19 Juni s/d 2 Juli 2023"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
                 <TextView
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
+                    android:drawableStart="@drawable/ellipsepurple"
                     android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
-                    android:text="-"
+                    android:textColor="#cb6ce6"
+                    android:text="Pengisian Kartu Rencana Studi \nMahasiswa 26 Juni s/d 2 Juli 2023"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
 
                 <TextView
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
                     android:layout_marginStart="445dp"
-                    android:drawableStart="@drawable/elipse"
-                    android:textColor="#ff3131"
-                    android:text="-"
+                    android:drawableStart="@drawable/ellipsepink"
+                    android:textColor="#ff66c4"
+                    android:text="Pembayaran Herregistrasi Perkuliahan \n Semester Antara 26 Juni s/d \n2 Juli 2023"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
             </LinearLayout>
@@ -96,7 +98,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:textSize="12sp"
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:drawableStart="@drawable/elipse"
                     android:textColor="#ff3131"
@@ -105,7 +107,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:textSize="12sp"
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
                     android:drawableStart="@drawable/elipse"
@@ -115,7 +117,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:textSize="12sp"
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
                     android:drawableStart="@drawable/elipse"
@@ -125,7 +127,7 @@
                     android:layout_height="wrap_content"/>
 
                 <TextView
-                    android:textSize="12sp"
+                    android:textSize="9sp"
                     android:drawablePadding="6dp"
                     android:layout_marginTop="12dp"
                     android:drawableStart="@drawable/elipse"
