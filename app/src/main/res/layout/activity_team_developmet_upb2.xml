@@ -8,6 +8,7 @@
     tools:context=".TeamDevelopmetUPB2">
 
     <TextView
+        android:textSize="17sp"
         android:layout_marginTop="9dp"
         android:layout_marginStart="26dp"
         android:textColor="@android:color/black"
@@ -15,11 +16,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/tv_development"
         android:drawableStart="@drawable/nav_back"
-        android:drawablePadding="9dp"
+        android:background="@drawable/default_button"
+        android:drawablePadding="15dp"
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
-        android:paddingStart="12dp"
-        android:paddingEnd="12dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="30dp"
         android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

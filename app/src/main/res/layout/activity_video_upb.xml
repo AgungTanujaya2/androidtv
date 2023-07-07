@@ -9,6 +9,7 @@
     >
 
     <TextView
+        android:textSize="17sp"
         android:textColor="@android:color/black"
         android:text="Back"
         android:layout_marginStart="26dp"
@@ -16,11 +17,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:drawableStart="@drawable/nav_back"
-        android:drawablePadding="9dp"
+        android:background="@drawable/default_button"
+        android:drawablePadding="15dp"
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
         android:paddingStart="12dp"
-        android:paddingEnd="12dp"
+        android:paddingEnd="40dp"
         android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>

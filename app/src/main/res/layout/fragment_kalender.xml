@@ -38,30 +38,31 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textColor="@android:color/black"
-            android:backgroundTint="@android:color/white"/>
+            android:background="@drawable/button_calender"/>
         <Button
+
             android:id="@+id/btnFebruari"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="10dp"
             android:text="Februari"
             android:layout_weight="1"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textColor="@android:color/black"
-            android:backgroundTint="@android:color/white"/>
+            android:background="@drawable/button_calender"/>
         <Button
             android:id="@+id/btnMaret"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="10dp"
             android:layout_weight="1"
             android:text="Maret"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textColor="@android:color/black"
-            android:backgroundTint="@android:color/white"/>
+            android:background="@drawable/button_calender"/>
     </LinearLayout>
 
     <!--apri,lmei,juni-->
     <LinearLayout
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/btn_triwulan2"
         app:layout_constraintTop_toBottomOf="@id/btn_triwulan1"
         android:layout_width="match_parent"
@@ -75,31 +76,31 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textColor="@android:color/black"
-            android:backgroundTint="@android:color/white"/>
+            android:background="@drawable/button_calender"/>
         <Button
             android:id="@+id/btnMei"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="8dp"
             android:text="Mei"
             android:layout_weight="1"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textColor="@android:color/black"
-            android:backgroundTint="@android:color/white"/>
+            android:background="@drawable/button_calender"/>
         <Button
             android:id="@+id/btnJuni"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="8dp"
             android:layout_weight="1"
             android:text="Juni"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textColor="@android:color/black"
-            android:backgroundTint="@android:color/white"/>
+            android:background="@drawable/button_calender"/>
     </LinearLayout>
 
 
     <!--juli,Agustus,September-->
     <LinearLayout
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/btn_triwulan3"
         app:layout_constraintTop_toBottomOf="@id/btn_triwulan2"
         android:layout_width="match_parent"
@@ -113,30 +114,30 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textColor="@android:color/black"
-            android:backgroundTint="@android:color/white"/>
+            android:background="@drawable/button_calender"/>
         <Button
             android:id="@+id/btnAgustus"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="8dp"
             android:text="Agustus"
             android:layout_weight="1"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textColor="@android:color/black"
-            android:backgroundTint="@android:color/white"/>
+            android:background="@drawable/button_calender"/>
         <Button
             android:id="@+id/btnSeptember"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="8dp"
             android:layout_weight="1"
             android:text="September"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textColor="@android:color/black"
-            android:backgroundTint="@android:color/white"/>
+            android:background="@drawable/button_calender"/>
     </LinearLayout>
 
     <!--Oktober,November,Desember-->
     <LinearLayout
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="10dp"
         android:id="@+id/btn_triwulan4"
         app:layout_constraintTop_toBottomOf="@id/btn_triwulan3"
         android:layout_width="match_parent"
@@ -150,25 +151,25 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textColor="@android:color/black"
-            android:backgroundTint="@android:color/white"/>
+            android:background="@drawable/button_calender"/>
         <Button
             android:id="@+id/btnNovember"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="8dp"
             android:text="November"
             android:layout_weight="1"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textColor="@android:color/black"
-            android:backgroundTint="@android:color/white"/>
+            android:background="@drawable/button_calender"/>
         <Button
             android:id="@+id/btnDesember"
-            android:layout_marginStart="5dp"
+            android:layout_marginStart="8dp"
             android:layout_weight="1"
             android:text="Desember"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:textColor="@android:color/black"
-            android:backgroundTint="@android:color/white"/>
+            android:background="@drawable/button_calender"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
