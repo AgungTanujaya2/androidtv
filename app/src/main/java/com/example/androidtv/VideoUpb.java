@@ -21,13 +21,22 @@ public class VideoUpb extends AppCompatActivity {
         setContentView(R.layout.activity_video_upb);
 
         VideoView videoView = findViewById(R.id.video);
+
+        String videoUrl ="https://firebasestorage.googleapis.com/v0/b/android-tv-d131f.appspot.com/o/videoupb.mp4?alt=media&token=79bbed32-da48-4a63-945d-31d37a5247d9";
+
+        Uri videoUri = Uri.parse(videoUrl);
+        videoView.setVideoURI(videoUri);
+
+        MediaController controller = new MediaController(this);
+        controller.setAnchorView(videoView);
+        videoView.setMediaController(controller);
+
+        videoView.start();
+
         String videoPath = "android.resource://"+getPackageName()+"/"+R.raw.videoupb;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
-        MediaController mediaController = new MediaController(this);
-        mediaController.setAnchorView(videoView);
-        videoView.setMediaController(mediaController);
-        videoView.start();
+        MediaController mediaController1 = new MediaController(this);
 
         TextView textView = findViewById(R.id.btnBack);
         textView.setOnClickListener(new View.OnClickListener() {
